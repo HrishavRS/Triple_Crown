@@ -1,0 +1,56 @@
+body {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 20px 50px 0px 50px;
+}
+
+.navbar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoImage {
+  height: 50px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: goldenrod;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+
+.searchInput {
+  border: none;
+  background-color: transparent;
+}
+
+.searchInput::placeholder {
+  color: black;
+}
+
+.registration {
+  color: cadetblue;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navbar-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.people {
+  margin-right: 20px;
+  cursor: pointer;
+  color: lightslategrey;
+}
